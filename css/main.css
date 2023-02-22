@@ -1,0 +1,33 @@
+ @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap");
+/*
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+ */
+
+ html,
+ body * {
+   box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
+ }
+ 
+ body {
+   background: linear-gradient(rgba(246, 247, 249, 0.8), rgba(246, 247, 249, 0.8)),
+     url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1564049481/bg-clouds.jpg)
+       no-repeat center center fixed;
+   background-size: cover;
+ }
+ 
+ .container {
+   width: 100%;
+   padding-top: 60px;
+   padding-bottom: 100px;
+ }
+.alert {
+  padding: 0.5rem;
+}
+
+.form-wrap h1,
+.form-wrap .form-label {
+  font-weight: 600;
+}
