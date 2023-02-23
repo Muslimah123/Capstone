@@ -4,7 +4,7 @@ session_start();
 
 # If user is not logged in then redirect him to login page
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== TRUE) {
-  echo "<script>" . "window.location.href='../login.php';" . "</script>";
+  echo "<script>" . "window.location.href='../register/login.php';" . "</script>";
   exit;
 }
 ?>
@@ -40,8 +40,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== TRUE) {
 
 
 <link id="pagestyle" href="./assets/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
-
-
 
 
 

@@ -17,17 +17,24 @@
   
 </head>
 <body>
-<nav>
-  <div class="logo">
+<nav class="navbar   bg-gradient-primary navbar-fixed-top ">
+ <div class="logo">
     <div class="arrow-down"></div>
-  </div>
-  <ul>
-    <li>Services</li>
-    <li>Products</li>
-    <li>FAQs</li>
-    <li>Contact</li>
-  </ul>
-  <ul class="nav navbar-nav navbar-right">
+  </div> 
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					OurApp</a>
+			</div>
+      
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="../index.php">Home</a></li>
+				<li><a href="classes.php">Services</a></li>
+				<li><a href="shop.php">Products</a></li>
+				<li><a href="booking.php">FAQS</a></li>
+                <li><a href="admin/login.php">Contacts</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
 				<li><a href="customer_registration.php">
 					<span class="glyphicon glyphicon-user"></span>
 					Register</a></li>
@@ -35,7 +42,8 @@
 					<span class="glyphicon glyphicon-log-in"></span>
 					Login</a></li>
 			</ul>
-</nav>
+		</div>
+	</nav>
 <section class="banner">
   <div class="container">
     <div class="banner-text">
@@ -99,41 +107,7 @@
     </div>
   </div>
 </div>
-<!-- <footer>
-  <div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <ul>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-        <li>Footer Link</li>
-      </ul>
-    </div>
-  </div>
-  </div>
-</footer> -->
+
 <footer id="footer" > 
         <div class="footer-newsletter"> 
             <div class="container"> 

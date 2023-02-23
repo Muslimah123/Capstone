@@ -97,9 +97,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> login </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="../css/main.css">
   <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
   <script defer src="./js/script.js"></script>
+  
 </head>
 
 <body>
@@ -112,8 +113,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         ?>
         <div class="form-wrap border rounded p-4">
-          <h1>Log In</h1>
+        <div class="text-center">
+        <h1>Log In</h1>
           <p>Please login to continue</p>
+  </div>
+         
           <!-- form starts here -->
           <form action="<?= htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" novalidate>
             <div class="mb-3">

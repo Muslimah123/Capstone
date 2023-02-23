@@ -21,7 +21,8 @@
 			</ul>
 		</div>
 		<div ng-app ng-init="checked = false">
-			<form class="form-signin" action="" method="post" name="form"> <label for="username">Username</label> <input class="form-styling" type="text" name="username" placeholder="" /> 
+			<form class="form-signin" action="" method="post" name="form"> <label for="username">Username</label> 
+            <input class="form-styling" type="text" name="username" placeholder="" /> 
             <label for="password">Password</label> <input class="form-styling" type="text" name="password" placeholder="" /> 
             <input type="checkbox" id="checkbox" /> 
             <label for="checkbox">
