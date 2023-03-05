@@ -34,8 +34,15 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `reg_date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+--
+--Table structure for table 'customers'
+--
+CREATE TABLE 'customers'(
+  'cust_id' int(11) NOT NULL,
+  
 
-
+);
+>>>>>>> origin/master
 --
 -- Dumping data for table `users`
 --

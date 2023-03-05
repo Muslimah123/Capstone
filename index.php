@@ -35,10 +35,11 @@
                 <li><a href="./contact/index.php">Contacts</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="./register/register.php">
+				<li><a href="customer_registration.php">
 					<span class="glyphicon glyphicon-user"></span>
 					Register</a></li>
-				<li><a href="./register/login.php">
+				<li><a href="login_form.php">
+
 					<span class="glyphicon glyphicon-log-in"></span>
 					Login</a></li>
 			</ul>
