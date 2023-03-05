@@ -118,7 +118,7 @@
 
 	<main>
 		<section>
-			<h2>Service 1</h2>
+			<h2>Service number one</h2>
 			<div class="service">
 				<img class="service-image" src="https://via.placeholder.com/400x200" alt="Service 1 Image">
 				<h3 class="service-title">Service 1 Title</h3>
